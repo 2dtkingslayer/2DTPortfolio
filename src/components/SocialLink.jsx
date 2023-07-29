@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub,FaLinkedin } from 'react-icons/fa'
+import { FaGithub,FaLinkedin,FaYoutube } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 const SocialLink = () => {
@@ -11,7 +11,7 @@ const SocialLink = () => {
                     LinkedIn <FaLinkedin size ={30}/>
                 </>
             ),
-            href : 'https://www.linkedin.com/in/tri-luong-80a05a234/',
+            href : 'https://www.linkedin.com/in/2dt/',
             style : 'rounded-tr-md'
         },
         {
@@ -21,7 +21,16 @@ const SocialLink = () => {
                     Github <FaGithub size ={30}/>
                 </>
             ),
-            href : 'https://github.com/dehjaza2001'
+            href : 'https://github.com/2dtkingslayer'
+        },
+        {
+            id: 5,
+            child : (
+                <>
+                    YouTube <FaYoutube size ={30}/>
+                </>
+            ),
+            href : 'https://youtube.com/@2DTOfficial',
         },
         {
             id: 3,
@@ -30,7 +39,7 @@ const SocialLink = () => {
                     Email <HiOutlineMail size ={30}/>
                 </>
             ),
-            href : 'mailto:kevinluong108@gmail.com'
+            href : 'mailto:tdd4@njit.edu'
         },
         {
             id: 4,
@@ -39,7 +48,7 @@ const SocialLink = () => {
                     Resume <BsFillPersonLinesFill size ={30}/>
                 </>
             ),
-            href : 'https://drive.google.com/file/d/1N67_cydr0JYFAA2s_7qLb_0Asgy_zfgI/view?usp=sharing',
+            href : 'https://drive.google.com/file/d/1XS8-RmcOipxcRDEbUIFY_seL0JRK8CTD/view?usp=sharing',
             style : "rounded-br-md",
         },
     ]
