@@ -11,8 +11,8 @@ const Contact = () => {
 
             <div className='flex justify-center items-center'>
                 <form action='https://getform.io/f/b960304e-d1d5-4252-8c74-24a6a8cb379d' method = "POST" className='flex flex-col w-full md:w-1/2'>
-                    <input type = "text" name="name" placeholder='Your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-                    <input type = "text" name="email" placeholder='Your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+                    <input type = "text" name="name" placeholder='Full name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+                    <input type = "text" name="email" placeholder='Email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
                     <textarea type = "text" name="message" placeholder='Enter your message' rows = "10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
 
                     <button className='text-white bg-gradient-to-b from-sky-400 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>

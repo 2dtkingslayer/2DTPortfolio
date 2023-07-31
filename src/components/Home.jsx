@@ -8,8 +8,8 @@ const Home = () => {
         <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center mt-16 h-full'>
                 <h2 className='text-4xl sm:text-5xl font-bold text-white'>What's up! I'm Truong.</h2>
-                <p className='text-gray-400 py-3 text-xl max-w-md'>I am a Computer Science undergraduate at the New Jersey Institute of Technology.</p>
-                <p className='text-gray-400 py-3 text-xl max-w-md'>I am looking for a Software Engineering internship to help me improve my skills and earn experience technically, especially full-stack or back-end, which are my passion.</p>
+                <p className='text-gray-400 py-3 text-xl max-w-md'>I am a junior who is doing Computer Science at the New Jersey Institute of Technology.</p>
+                <p className='text-gray-400 py-3 text-xl max-w-md'>I am looking for a Software Engineering Internship to help me improve my skills and earn technical experience, especially full-stack or back-end, which are my passion.</p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-sky-400 to-blue-500 cursor-pointer hover:scale-105 duration-100'>
                         Porfolio 
