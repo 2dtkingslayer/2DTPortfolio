@@ -8,16 +8,18 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-8  '>
-            As a Computer Science student at New Jersey Institute of Technology, I have a passion for software
+            As a Computer Science student, I have passion for software
             engineering. I am continuously expanding my knowledge of modern technologies to become a well-rounded
-            full-stack developer.
+            full-stack developer. Beside schoolwork, I enjoy participating in hackathons, programming contests, and
+            building side projects to apply my knowledge. I'm always forward to learning new things and collaborate
+            with other technical minds!
             </p>
 
             <br/>
 
             <p className='text-xl'>
-            Beside schoolwork, I enjoy participating in hackathons, programming contests, and building side projects to
-            apply my knowledge. I'm always forward to learning new things and collaborate with other technical minds!
+            I had experienced interning as a Software Engineer at CRANE Co. - Westlock Controls from May to August 2023.
+
             </p>
         </div>
     </div>
