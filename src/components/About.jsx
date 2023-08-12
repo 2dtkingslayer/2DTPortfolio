@@ -7,7 +7,7 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-8  '>
+            <p className='text-xl mt-8' align='justify'>
             As a Computer Science student, I have passion for software
             engineering. I am continuously expanding my knowledge of modern technologies to become a well-rounded
             full-stack developer. Beside schoolwork, I enjoy participating in hackathons, programming contests, and
@@ -17,9 +17,11 @@ const About = () => {
 
             <br/>
 
-            <p className='text-xl'>
+            <p className='text-xl' align='justify'>
+            My concentrations are algorithms (back-end), low level code, and Machine Learning algorithms.
             I had experienced interning as a Software Engineer at CRANE Co. - Westlock Controls from May to August 2023.
-
+            During the internship, I used Machine Learning algorithms to detect abnormal valve system’s vibration from
+            real-world data collected by AWS Monitron, Westlock Controls’ new vibration sensor, and MQTT protocol.
             </p>
         </div>
     </div>
